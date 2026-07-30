@@ -1,8 +1,14 @@
 aid: magicpin
 name: Magicpin
-description: Magicpin is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Magicpin (operated by Samast Technologies Private Limited) is India's hyperlocal
+  savings and discovery platform, connecting consumers with deals, cashback, and
+  vouchers across restaurants, food delivery, fashion, grocery, beauty, fitness,
+  and electronics merchants in cities throughout India. The company operates a
+  consumer savings app alongside a merchant/brands portal and corporate voucher
+  solutions. As of this enrichment pass Magicpin publishes a consumer web and
+  mobile experience plus partner and brand onboarding portals, but exposes no
+  public developer API, OpenAPI specification, SDK, or developer documentation.
 url: https://raw.githubusercontent.com/api-evangelist/magicpin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +16,52 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Savings
+- Discounts
+- Hyperlocal
+- Food Delivery
+- Retail
+- Cashback
+- Vouchers
+- India
+image: https://magicpin.in/favicon.ico
 apis: []
+common:
+- type: DomainSecurity
+  url: security/magicpin-domain-security.yml
+- type: Website
+  url: https://magicpin.in/
+- type: About
+  url: https://magicpin.in/about-us/
+- type: Blog
+  url: https://magicpin.in/blog/
+- type: TermsOfService
+  url: https://magicpin.in/partner/store/terms/
+- type: SignUp
+  url: https://magicpin.in/partners/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
